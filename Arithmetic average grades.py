@@ -1,0 +1,5 @@
+GradeMath = float(input("Input math grade: "))
+GradeHist = float(input("Input hist grade: "))
+GradeGeog = float(input("Input geog grade: "))
+print("\nMathematics grade: ",GradeMath,"\nHistory grade: ",GradeHist,"\nGeography grade: ",GradeGeog)
+print("The student average grade is :",(GradeMath+GradeHist+GradeGeog)/3)
